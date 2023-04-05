@@ -1,0 +1,7 @@
+colorscheme catppuccin
+
+unbind d
+bind x tabclose
+
+" For syntax highlighting see https://github.com/tridactyl/vim-tridactyl
+" vim: set filetype=tridactyl
