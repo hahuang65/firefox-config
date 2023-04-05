@@ -11,6 +11,7 @@
   --red: #f38ba8;
   --yellow: #f9e2af;
   --font: "Iosevka";
+  --fontsize: 24pt;
 
   --tridactyl-fg: var(--fg);
   --tridactyl-bg: var(--bg);
@@ -24,10 +25,11 @@
   --tridactyl-cmdl-font-family: var(--font);
   --tridactyl-cmplt-font-family: var(--font);
   --tridactyl-hintspan-font-family: var(--font);
+  --tridactyl-hintspan-font-size: var(--fontsize);
 
   /* Hint character tags */
   --tridactyl-hintspan-fg: var(--bg) !important;
-  --tridactyl-hintspan-bg: var(--green) !important;
+  --tridactyl-hintspan-bg: var(--pink) !important;
 
   /* Element Highlights */
   --tridactyl-hint-active-fg: none;
@@ -92,7 +94,7 @@
 
 #completions .HistoryCompletionSource table {
   width: 100%;
-  font-size: 14pt;
+  font-size: var(--fontsize);
   border-spacing: 0;
   table-layout: fixed;
 }
@@ -152,7 +154,7 @@
   background: var(--tridactyl-bg) !important;
   border: unset !important;
   border: 1px var(--purple) solid !important;
-  font-size: 14pt !important;
+  font-size: var(--fontsize) !important;
   /*font-weight: 200 !important;*/
   padding: 0.8ex !important;
 }
