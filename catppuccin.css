@@ -11,7 +11,7 @@
   --red: #f38ba8;
   --yellow: #f9e2af;
   --font: "Iosevka";
-  --fontsize: 24pt;
+  --fontsize: 16pt;
 
   --tridactyl-fg: var(--fg);
   --tridactyl-bg: var(--bg);
@@ -49,7 +49,7 @@
   padding: 1rem;
   color: var(--tridactyl-fg);
   width: 90%;
-  font-size: 2rem;
+  font-size: var(--fontsize);
   line-height: 1.5;
   background: var(--tridactyl-bg);
   padding-left: unset;
@@ -57,12 +57,12 @@
 }
 
 #completions table {
-  font-size: 2rem;
+  font-size: var(--fontsize);
   font-weight: 200;
   border-spacing: 0;
   table-layout: fixed;
   padding: 1rem;
-  padding-top: 1rem;
+  padding-top: 0 !important;
   padding-bottom: 1rem;
 }
 
@@ -135,7 +135,7 @@
   border-bottom: unset;
   padding: 1rem !important;
   padding-left: unset;
-  padding-bottom: 0.2rem;
+  padding-bottom: 0.2rem !important;
 }
 
 #cmdline_iframe {
@@ -154,7 +154,7 @@
   background: var(--tridactyl-bg) !important;
   border: unset !important;
   border: 1px var(--purple) solid !important;
-  font-size: var(--fontsize) !important;
+  font-size: 10pt !important;
   /*font-weight: 200 !important;*/
   padding: 0.8ex !important;
 }
