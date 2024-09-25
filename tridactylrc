@@ -4,6 +4,7 @@ unbind d
 bind x tabclose
 bind J tabnext
 bind K tabprev
+bind --mode=browser <C-.> sidebartoggle
 
 " For syntax highlighting see https://github.com/tridactyl/vim-tridactyl
 " vim: set filetype=tridactyl
