@@ -4,6 +4,10 @@ unbind d
 bind x tabclose
 bind J tabnext
 bind K tabprev
+bind <C-+> zoom 10 true
+bind <C-=> zoom 10 true
+bind <C--> zoom -10 true
+bind <C-0> zoom 100
 
 " For syntax highlighting see https://github.com/tridactyl/vim-tridactyl
 " vim: set filetype=tridactyl
